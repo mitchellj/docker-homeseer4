@@ -44,7 +44,7 @@ jobs:
           # Path to the Dockerfile
           file: Dockerfile # optional
           # List of build-time variables
-          build-args: SQ_TOKEN=${{ secrets.SQ_TOKEN }}
+          #build-args: SQ_TOKEN=${{ secrets.SQ_TOKEN }}
           # List of metadata for an image
           #labels: # optional
           # List of tags
